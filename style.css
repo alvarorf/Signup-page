@@ -13,8 +13,15 @@ body{
   
 }
 
+input{
+  width: 98%;
+  margin-left: -22px;
+  text-align: left;
+}
+
 .mlogo{
   box-sizing: border-box;
+  margin-top: 27px;
   text-align: center;
 }
 
@@ -57,7 +64,13 @@ form h2 {
 
 form h4 {
   font-weight: 400;
-}
+  }
+form #login h4 {
+  font-weight: 400;
+  margin-left: -20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  }
 
 form a {
   font-weight: 400;
@@ -76,9 +89,9 @@ nav button {
   width: 101px;
 }
 nav button i img {
-	height: 13px;
-	padding-right: 4px;
-	padding-top: 4px;
+  height: 13px;
+  padding-right: 4px;
+  padding-top: 4px;
 }
 
 #login {
@@ -158,5 +171,11 @@ fieldset p {
 #link {
   font-size: 12px;
   margin-top: -15px;
-
+}
+label{
+  margin-left:-10px;
+}
+label h4{
+  font-weight: 400;
+  font-size: 14px;
 }

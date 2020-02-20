@@ -6,44 +6,71 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <form action="/my-handling-form-page" method="POST">
-
-      <fieldset>
-        <legend>
-          <h1>Create an Intuit account</h1>
-        </legend>
-        <h3>One account for everything Intuit, including Mint. </h3>
-        <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+    <nav>
         <ul>
-          <li>
-            <label for="email">
-              <h4>Email address</h4></label>
-            <input type="email" name="email">
-          </li>
-          <li>
-            <label for="phone">
-              <h4>Phone (recommended)</h4>
-            </label>
-            <input type="tel" name="phone">
-            <h5>Standard call, messaging or data rates may apply.</h5>
-          </li>
-          <li>
-            <label for="password">
-              <h4>Password</h4>
-            </label>
-            <input type="password" name="password">
-          </li>
-          <li>
-            <button type="submit">
-              <h4>Create account</h4>
-            </button>
-          </li>
+            <li>Already have an Intuit account?</li>
+            <li>
+                <a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D705e7513-eeca-40d1-9a5d-7a9a21651696%26adobe_mc%3DMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1582219608%26ivid%3D705e7513-eeca-40d1-9a5d-7a9a21651696#">I forgot my user ID or password</a>
+            </li>
         </ul>
-      </fieldset>
-      <p>By clicking Create account, you agree to our
-      Terms and have read and acknowledge our Privacy Standardtement.</p>
-      <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
-    </form>
+        <button class="button" type="submit">Sign In</button>
+
+
+    </nav>
+    <main>
+        <form action="/my-handling-form-page" method="POST">
+
+        <fieldset>
+            <legend>
+            <h1>Create an Intuit account</h1>
+            </legend>
+            <h3>One account for everything Intuit, including Mint. </h3>
+            <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+            <ul>
+                <li>
+                    <label for="email">
+                        <h4>Email address</h4>
+                    </label>
+                    <input type="email" name="email">
+                </li>
+                <li>
+                    <label for="phone">
+                        <h4>Phone (recommended)</h4>
+                    </label>
+                    <input type="tel" name="phone">
+                    <h5>Standard call, messaging or data rates may apply.</h5>
+                </li>
+                <li>
+                    <label for="password">
+                        <h4>Password</h4>
+                    </label>
+                    <input type="password" name="password">
+                </li>
+                <li>
+                    <button type="submit">
+                        <h4>Create account</h4>
+                    </button>
+                </li>
+            </ul>
+        </fieldset>
+            <p>By clicking Create account, you agree to our
+            Terms and have read and acknowledge our Privacy Standardtement.</p>
+            <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+        </form>
+    </main>
+    <footer>
+        <div class="footernotice">
+            <a href="http://about.intuit.com/legal/">Legal</a>
+            <a href="https://security.intuit.com/privacy/">Privacy</a>
+            <a href="http://security.intuit.com/">Security</a>
+        </div>
+        &copy 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+Terms and conditions, features, support, pricing, and service options subject to change without notice.
+    </footer>
+    <section class="privacybutton">
+        <button>
+            Privacy
+        </button>
+    </section>
   </body>
 </html>

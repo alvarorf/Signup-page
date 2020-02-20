@@ -1,3 +1,29 @@
+body{
+  background-color: rgb(236, 238, 241);
+  color: rgb(76, 76, 76);
+  font-family:
+}
+
+button{
+  background-color: #0077c5;
+  color: rgb(255, 255, 255);
+}
+.privacybutton{
+    color: rgb(107, 108, 104);    
+}
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+footer{
+  color: gray;
+}
+
+footer a{
+  color: gray;
+  text-align: center;
+}
+form{
+  background-color: rgba(255,255,255,0.);
 }

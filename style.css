@@ -1,22 +1,88 @@
 body{
   background-color: rgb(236, 238, 241);
   color: rgb(76, 76, 76);
-  font-family:AvenirNext,Avenir,sans-serif;
+  font-family: AvenirNext, Avenir, sans-serif;
 }
 
-button{
+nav {
+  display: grid;
+  grid-template-columns: 13fr 1fr;
+}
+
+nav ul {
+  float: right;
+  font-size: 14px;
+  margin-top: 20px;
+  padding-right: 13px;
+
+}
+
+form h2 {
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+form h4 {
+  font-weight: 400;
+}
+
+form a {
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: -20px;
+  position: absolute;
+}
+
+nav button {
+  border: 1px solid #4c4c4c;
+  border-radius: 5px;
+  float: right;
+  font-size: 14px;
+  font-weight: 200;
+  height:38px;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 100px;
+}
+
+#login {
+	padding-top: 25px;
+}
+
+li h5 {
+	font-size: 11px;
+	font-weight: 400;
+}
+
+li button {
+  border: 1px solid #4c4c4c;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 200;
+  height:38px;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 100px;
+}
+
+li button h4 {
+	margin-top: 0;
+}
+
+button {
   background-color: #0077c5;
   color: rgb(255, 255, 255);
 }
+
 .privacybutton{
-    color: rgb(107, 108, 104);    
+  color: rgb(107, 108, 104);    
 }
 
 ul {
   list-style-type: none;
 }
 
-footer{
+footer {
   color: gray;
 }
 

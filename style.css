@@ -2,8 +2,26 @@ body{
   background-color: rgb(236, 238, 241);
   color: rgb(76, 76, 76);
   font-family: AvenirNext, Avenir, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centertext{
+  color: #4c4c4c;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
+.mlogo{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mlogo img{
+  height: 35px;
+  width: 118px;
+}
 nav {
   display: grid;
   grid-template-columns: 13fr 1fr;
@@ -15,6 +33,13 @@ nav ul {
   margin-top: 20px;
   padding-right: 13px;
 
+}
+
+form{
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
 }
 
 form h2 {
@@ -29,8 +54,6 @@ form h4 {
 form a {
   font-weight: 400;
   text-decoration: none;
-  margin-top: -20px;
-  position: absolute;
 }
 
 nav button {
@@ -48,10 +71,14 @@ nav button {
 #login {
 	padding-top: 25px;
 }
-
+.logos{
+  box-sizing: border-box;
+  text-align: center;
+  height: 20px;
+ }
 li h5 {
-	font-size: 11px;
-	font-weight: 400;
+  font-size: 11px;
+  font-weight: 400;
 }
 
 li button {

@@ -35,6 +35,9 @@ nav {
   height: 60px;
   margin-top: -20px;
 }
+ul {
+	margin-top: 0;
+}
 
 nav ul {
   color: rgb(80, 80, 80);
@@ -59,18 +62,46 @@ form{
 
 form h2 {
   font-weight: 400;
-  padding-top: 15px;
 }
 
 form h4 {
   font-weight: 400;
-  }
+}
+
 form #login h4 {
   font-weight: 400;
   margin-left: -20px;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 5px;
-  }
+}
+
+#login button {
+  width: 330px;
+  margin-left:-20px;
+  padding-left: 20px;
+  height: 44px;
+}
+
+#login button img {
+  height: 13px;
+}
+
+#login button span {
+  font-size: 1.125em;
+  font-weight: 400;
+}
+
+.form_footer {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.form_captcha {
+	font-size: 10px;
+	text-align: center;
+}
 
 form a {
   font-weight: 400;
@@ -94,9 +125,7 @@ nav button i img {
   padding-top: 4px;
 }
 
-#login {
-  padding-top: 25px;
-}
+
 .logos {
   box-sizing: border-box;
   height: 20px;
@@ -115,8 +144,10 @@ nav button i img {
 }
 
 li h5 {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
+  margin-left: -20px;
+  margin-top: 5px;
 }
 
 li button {

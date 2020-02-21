@@ -7,16 +7,16 @@ body{
 }
 .centertext{
   color: #4c4c4c;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   
 }
 
 input{
-  width: 98%;
   margin-left: -22px;
   text-align: left;
+  width: 98%;
 }
 
 .mlogo{
@@ -36,7 +36,7 @@ nav {
   margin-top: -20px;
 }
 ul {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 nav ul {
@@ -44,20 +44,21 @@ nav ul {
   float: right;
   font-size: 12px;
   font-weight: 400;
+  line-height: 18px;
   margin-top: 22px;
   padding-right: 13px;
 }
 
 nav ul li a {
-	color: rgb(0, 119, 197);
-	text-decoration-line: none;
+  color: rgb(0, 119, 197);
+  text-decoration-line: none;
 }
 
 form{
   background-color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 0;
+  width: 380px;
 }
 
 form h2 {
@@ -76,10 +77,10 @@ form #login h4 {
 }
 
 #login button {
-  width: 330px;
+  height: 44px;
   margin-left:-20px;
   padding-left: 20px;
-  height: 44px;
+  width: 330px;
 }
 
 #login button img {
@@ -92,15 +93,20 @@ form #login h4 {
 }
 
 .form_footer {
+  font-size: 12px;
   padding-right: 20px;
   padding-left: 20px;
-  font-size: 12px;
   text-align: center;
 }
 
 .form_captcha {
-	font-size: 10px;
-	text-align: center;
+  background-color: #eceef1;
+  box-sizing: border-box;
+  font-size: 10px;
+  height: 40px;
+  margin: 40px auto 0px auto;
+  text-align: center;  
+  width: 350px;
 }
 
 form a {
@@ -126,14 +132,14 @@ nav button i img {
 }
 
 footer {
-	padding-top: 35px;
-	font-size: 12px;
+  padding-top: 35px;
+  font-size: 12px;
 }
 
 footer a {
-	text-decoration-line: none;
-	padding-right: 5px;
-	padding-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-decoration-line: none;
 }
 
 
@@ -145,18 +151,19 @@ footer a {
 }
 
 .logos span {
-  vertical-align: middle;
-  height: 100%;
-  display: inline-block;
-  margin-bottom: 28px;
-  font-weight: 100;
   color: #7a7d84;
+  display: inline-block;
+  font-weight: 100;
+  height: 100%;
+  margin-bottom: 28px;
   margin-left: -3px;
+  vertical-align: middle;
 }
 
 li h5 {
   font-size: 10px;
   font-weight: 400;
+  margin-bottom: 5px;
   margin-left: -20px;
   margin-top: 5px;
 }
@@ -206,8 +213,14 @@ fieldset {
 }
 
 fieldset p {
+  color: rgb(4c, 4c, 4c);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  outline-color: rgb(76, 76, 76);
+  text-align: center;
 }
 
 #link {

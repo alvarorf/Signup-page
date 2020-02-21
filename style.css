@@ -182,7 +182,17 @@ button {
 }
 
 .privacybutton{
-  color: rgb(107, 108, 104);    
+  color: rgb(107, 108, 104);
+
+}
+
+.privacybutton button {
+	background-color: #6B6C72;
+	position: absolute;
+	right: 5px;
+	height: 41px;
+	width: 123px;
+	
 }
 
 ul {

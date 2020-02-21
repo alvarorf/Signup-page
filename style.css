@@ -1,19 +1,19 @@
-body{
+body {
   background-color: rgb(236, 238, 241);
   color: rgb(117, 117, 117);
   font-family: AvenirNext, Avenir, sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
-.centertext{
+
+.centertext {
   color: #4c4c4c;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  
 }
 
-input{
+input {
   border: solid #c1c5c8 1px;
   height: 34px;
   margin-bottom: 25px;
@@ -23,16 +23,17 @@ input{
   width: 98%;  
 }
 
-.mlogo{
+.mlogo {
   box-sizing: border-box;
   margin-top: 27px;
   text-align: center;
 }
 
-.mlogo img{
+.mlogo img {
   height: 35px;
   width: 118px;
 }
+
 nav {
   display: grid;
   font-size: 11px;
@@ -40,6 +41,7 @@ nav {
   height: 60px;
   margin-top: -22px;
 }
+
 ul {
   margin-top: 0;
 }
@@ -107,9 +109,11 @@ form #login h4 {
   padding-left: 20px;
   text-align: center;
 }
-.form_footer a{
+
+.form_footer a {
   color: #0077c5;
 }
+
 .form_captcha {
   background-color: rgb(236, 238, 241);
   box-sizing: border-box;
@@ -121,7 +125,8 @@ form #login h4 {
   text-align: center;
   width: 380px;
 }
-.form_captcha a{
+
+.form_captcha a {
   color: #0077c5;
 }
 
@@ -141,6 +146,7 @@ nav button {
   margin-top: 30px;
   width: 101px;
 }
+
 nav button i img {
   height: 13px;
   padding-right: 4px;
@@ -157,7 +163,6 @@ footer a {
   padding-left: 5px;
   text-decoration-line: none;
 }
-
 
 .logos {
   box-sizing: border-box;
@@ -204,7 +209,7 @@ button {
   color: rgb(255, 255, 255);
 }
 
-.privacybutton{
+.privacybutton {
   bottom: 0px;
   box-sizing: border-box;
   color: rgb(107, 108, 104);
@@ -229,11 +234,12 @@ footer {
   color: gray;
 }
 
-footer a{
+footer a {
   color: gray;
   text-align: center;
 }
-form{
+
+form {
   background-color: rgb(255,255,255);
 
 }
@@ -258,10 +264,12 @@ fieldset p {
   font-size: 12px;
   margin-top: -15px;
 }
-label{
+
+label {
   margin-left:-10px;
 }
-label span{
+
+label span {
   color: rgb(64, 64, 64);
   font-size: 14px;
   font-weight: 400;
@@ -270,7 +278,7 @@ label span{
   margin-top: 0px;
 }
 
-label h4{
+label h4 {
   font-weight: 400;
   font-size: 14px;
-  }
+}
